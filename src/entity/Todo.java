@@ -21,6 +21,6 @@ public class Todo {
     }
 
     public boolean isNullOrEmpty(){
-        return todo.isEmpty() | todo.isBlank() | todo.equals(null) ;
+        return todo.isEmpty() | todo.isBlank() ;
     }
 }
